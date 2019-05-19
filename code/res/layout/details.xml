@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+    
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="JAYPEE INSTITUTE OF INFORMATION TeCHNOLOGY"
+        android:textSize="12sp"
+         />
+    
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="40dp"
+        android:text="MINOR PROJECT"
+        android:textSize="20sp"
+         />
+    
+    <TextView
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+       android:layout_centerHorizontal="true"
+        android:text="Submitted to :  Mr. Bansidhar Joshi"
+        android:textSize="15sp"
+         />
+    
+    <TextView
+     
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+       android:layout_centerHorizontal="true"
+        android:text="Submitted By:"
+        android:textSize="15sp"
+         />
+    
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="180dp"
+        android:text="Pushpanjay Kumar"
+        android:textSize="15sp"
+         />
+    
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="200dp"
+        android:text="Vivek Patel"
+        android:textSize="15sp"
+         />
+    
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="220dp"
+        android:text="Ayan Chakravorty"
+        android:textSize="15sp"
+         />
+    
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="240dp"
+        android:text="Amit Rawat"
+        android:textSize="15sp"
+         />
+    </RelativeLayout>

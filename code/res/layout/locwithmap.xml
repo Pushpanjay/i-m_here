@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:text="Latitude: "
+            android:textSize="20dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="unknown"
+            android:textSize="20dip" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvm3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:text="Longitute: "
+            android:textSize="20dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvm4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="unknown"
+            android:textSize="20dip" >
+        </TextView>
+    </LinearLayout>
+    
+    
+<fragment 
+          android:id="@+id/fmap"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:name="com.google.android.gms.maps.MapFragment"/>
+    
+
+</LinearLayout> 
+
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imhere"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+    
+        <!-- OpenGL ES -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+    <!-- ends -->
+    
+      <!-- Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+        <!-- Ends -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       
+          <!--  google play service starts-->
+        <meta-data
+    android:name="com.google.android.gms.version"
+    android:value="@integer/google_play_services_version" />
+    <!-- ends -->
+        
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Details"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.imhere.DETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Sql_view"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SQL_VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.imhere.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".LocWithMap"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.imhere.LOCWITHMAP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".SOS"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.imhere.SOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".SOS_Setting"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.imhere.SOS_SETTING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Chat"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CHAT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       
+        
+        
+        <!-- API key -->
+        <meta-data
+    android:name="com.google.android.maps.v2.API_KEY"
+    android:value="AIzaSyCVEffs-6ix_sZbX7f2KPUSwAM5Y3aDEr8"/>
+        <!-- Ends -->
+        
+    </application>
+
+</manifest>
